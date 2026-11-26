@@ -104,11 +104,11 @@ LSP_TEST_FW_TYPE                        := src
 LSP_TEST_FW_URL_RO                      := https://github.com/lsp-plugins/$(LSP_TEST_FW_NAME).git
 LSP_TEST_FW_URL_RW                      := git@github.com:lsp-plugins/$(LSP_TEST_FW_NAME).git
 
-LSP_TK_LIB_VERSION                      := 1.0.37
+LSP_TK_LIB_VERSION                      := master
 LSP_TK_LIB_NAME                         := lsp-tk-lib
 LSP_TK_LIB_TYPE                         := src
-LSP_TK_LIB_URL_RO                       := https://github.com/lsp-plugins/$(LSP_TK_LIB_NAME).git
-LSP_TK_LIB_URL_RW                       := git@github.com:lsp-plugins/$(LSP_TK_LIB_NAME).git
+LSP_TK_LIB_URL_RO                       := https://github.com/sean-v8/$(LSP_TK_LIB_NAME).git
+LSP_TK_LIB_URL_RW                       := https://github.com/sean-v8/$(LSP_TK_LIB_NAME).git
 
 LSP_WS_LIB_VERSION                      := 1.0.37
 LSP_WS_LIB_NAME                         := lsp-ws-lib
@@ -117,11 +117,11 @@ LSP_WS_LIB_URL_RO                       := https://github.com/lsp-plugins/$(LSP_
 LSP_WS_LIB_URL_RW                       := git@github.com:lsp-plugins/$(LSP_WS_LIB_NAME).git
 
 # Plugin-related module dependencies
-LSP_PLUGIN_FW_VERSION                   := 1.0.41
+LSP_PLUGIN_FW_VERSION                   := master
 LSP_PLUGIN_FW_NAME                      := lsp-plugin-fw
 LSP_PLUGIN_FW_TYPE                      := src
-LSP_PLUGIN_FW_URL_RO                    := https://github.com/lsp-plugins/$(LSP_PLUGIN_FW_NAME).git
-LSP_PLUGIN_FW_URL_RW                    := git@github.com:lsp-plugins/$(LSP_PLUGIN_FW_NAME).git
+LSP_PLUGIN_FW_URL_RO                    := https://github.com/sean-v8/$(LSP_PLUGIN_FW_NAME).git
+LSP_PLUGIN_FW_URL_RW                    := https://github.com/sean-v8/$(LSP_PLUGIN_FW_NAME).git
 
 LSP_PLUGINS_SHARED_VERSION              := 1.0.40
 LSP_PLUGINS_SHARED_NAME                 := lsp-plugins-shared
@@ -334,11 +334,11 @@ LSP_PLUGINS_OSCILLOSCOPE_TYPE           := plug
 LSP_PLUGINS_OSCILLOSCOPE_URL_RO         := https://github.com/lsp-plugins/$(LSP_PLUGINS_OSCILLOSCOPE_NAME).git
 LSP_PLUGINS_OSCILLOSCOPE_URL_RW         := git@github.com:lsp-plugins/$(LSP_PLUGINS_OSCILLOSCOPE_NAME).git
 
-LSP_PLUGINS_PARA_EQUALIZER_VERSION      := 1.0.41
+LSP_PLUGINS_PARA_EQUALIZER_VERSION      := master
 LSP_PLUGINS_PARA_EQUALIZER_NAME         := lsp-plugins-para-equalizer
 LSP_PLUGINS_PARA_EQUALIZER_TYPE         := plug
-LSP_PLUGINS_PARA_EQUALIZER_URL_RO       := https://github.com/lsp-plugins/$(LSP_PLUGINS_PARA_EQUALIZER_NAME).git
-LSP_PLUGINS_PARA_EQUALIZER_URL_RW       := git@github.com:lsp-plugins/$(LSP_PLUGINS_PARA_EQUALIZER_NAME).git
+LSP_PLUGINS_PARA_EQUALIZER_URL_RO       := https://github.com/sean-v8/$(LSP_PLUGINS_PARA_EQUALIZER_NAME).git
+LSP_PLUGINS_PARA_EQUALIZER_URL_RW       := https://github.com/sean-v8/$(LSP_PLUGINS_PARA_EQUALIZER_NAME).git
 
 LSP_PLUGINS_PHASE_DETECTOR_VERSION      := 1.0.36
 LSP_PLUGINS_PHASE_DETECTOR_NAME         := lsp-plugins-phase-detector
